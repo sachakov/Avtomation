@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class MainAuto {
+public class MainAuto12 {
     public static void main(String[] args) throws InterruptedException {
 
         System.setProperty("selenium.chrome.driver", "chromedriver.exe");

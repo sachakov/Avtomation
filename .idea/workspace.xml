@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="JustToCommit">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="Locators1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainAuto13TestNG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JustCommit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainAuto12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,29 +43,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="Avtomation" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager">
-    <configuration name="MainAuto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainAuto" />
+  <component name="RunManager" selected="TestNG.TestNGDemo.inputTest">
+    <configuration name="MainAuto12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainAuto12" />
       <module name="Avtomation" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNGDemo.inputTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNGDemo" />
+      <option name="METHOD_NAME" value="inputTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainAuto" />
+        <item itemvalue="TestNG.TestNGDemo.inputTest" />
+        <item itemvalue="Application.MainAuto12" />
       </list>
     </recent_temporary>
   </component>
@@ -81,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677416744936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Locators1">
+      <created>1677439160215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677439160215</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +121,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JustToCommit" />
-    <option name="LAST_COMMIT_MESSAGE" value="JustToCommit" />
+    <MESSAGE value="Locators1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Locators1" />
   </component>
 </project>
