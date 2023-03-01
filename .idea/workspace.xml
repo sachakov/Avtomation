@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="Locators1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainAuto13TestNG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" afterDir="false" />
+    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="Aserts1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Testdata/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CSSlocatores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UkrNet/UkrNetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainAuto12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Aserts1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +40,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MFblMgpCet1n5FbrEgRoNIHKpU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +59,7 @@
       <force-push-target remote-path="Avtomation" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="TestNG.TestNGDemo.inputTest">
+  <component name="RunManager" selected="TestNG.UkrNetTest">
     <configuration name="MainAuto12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainAuto12" />
       <module name="Avtomation" />
@@ -75,8 +79,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UkrNetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UkrNet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UkrNet" />
+      <option name="MAIN_CLASS_NAME" value="UkrNet.UkrNetTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UkrNetTest" />
         <item itemvalue="TestNG.TestNGDemo.inputTest" />
         <item itemvalue="Application.MainAuto12" />
       </list>
@@ -105,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677439160215</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aserts1">
+      <created>1677616172316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677616172316</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +151,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JustToCommit" />
     <MESSAGE value="Locators1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Locators1" />
+    <MESSAGE value="Aserts1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aserts1" />
   </component>
 </project>
