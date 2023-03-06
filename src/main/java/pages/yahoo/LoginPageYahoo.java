@@ -1,10 +1,11 @@
-package pages;
+package pages.yahoo;
 
+import pages.theInternet.BasePage;
 import Testdata.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends BasePage {
+public class LoginPageYahoo extends BasePage {
 
                                                                    //private WebDriver driver; убрали, когда абстрактный класс объявили
                                                                   // private String pageUrl = "https://login.yahoo.com/";
@@ -20,7 +21,7 @@ public class LoginPage extends BasePage {
 // нам, чтобы взаимодействовать с браузером нужен вебдрайвер, объявили в начале, теперь в конструкторе реализуем
 //(конструктор из абстрактного класса) переопределяем
 
-    public LoginPage (WebDriver driver){
+    public LoginPageYahoo(WebDriver driver){
      super(driver);
         pageUrl = "https://login.yahoo.com/";//присваиваем юрл в конструкторе
     }

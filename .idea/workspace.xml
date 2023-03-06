@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="Aserts1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testdata/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CSSlocatores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/UkrNet/UkrNetTest.java" afterDir="false" />
+    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="WaitersPageObject">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/theInternet/InternetLoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/All/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/All/TheInternetTest/TheInternetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/theInternet/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/yahoo/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/yahoo/LoginPageYahoo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CSSlocatores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UkrNet/UkrNetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/All/Yahoo/YahooMail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Aserts1" />
+        <entry key="$PROJECT_DIR$" value="MailBox" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,19 +49,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
+}]]></component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="Avtomation" branch="main" />
     </force-push-targets>
   </component>
-  <component name="RunManager" selected="TestNG.UkrNetTest">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.YahooMail (1)">
     <configuration name="MainAuto12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainAuto12" />
       <module name="Avtomation" />
@@ -79,16 +86,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UkrNetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TheInternetTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Avtomation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UkrNet.*" />
+          <option name="PATTERN" value="Tests.All.TheInternetTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.All.TheInternetTest" />
+      <option name="MAIN_CLASS_NAME" value="Tests.All.TheInternetTest.TheInternetTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahooMail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.All.Yahoo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests.All.Yahoo" />
+      <option name="MAIN_CLASS_NAME" value="Tests.All.Yahoo.YahooMail" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YahooMail" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Yahoo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UkrNet" />
-      <option name="MAIN_CLASS_NAME" value="UkrNet.UkrNetTest" />
+      <option name="MAIN_CLASS_NAME" value="Yahoo.YahooMail" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -98,9 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UkrNetTest" />
-        <item itemvalue="TestNG.TestNGDemo.inputTest" />
+        <item itemvalue="TestNG.YahooMail (1)" />
+        <item itemvalue="TestNG.TheInternetTest" />
         <item itemvalue="Application.MainAuto12" />
+        <item itemvalue="TestNG.YahooMail" />
+        <item itemvalue="TestNG.TestNGDemo.inputTest" />
       </list>
     </recent_temporary>
   </component>

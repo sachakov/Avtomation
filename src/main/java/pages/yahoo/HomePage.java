@@ -1,5 +1,6 @@
-package pages;
+package pages.yahoo;
 
+import pages.theInternet.BasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -7,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class HomePage extends BasePage{
+public class HomePage extends BasePage {
 //когда создали новый класс, заметили, что для каждой пейджи у нас есть общее: драйвер и пейджЮрл - делаем абстрактный класс
    // private String pageUrl = "https://mail.yahoo.com/d/folders/1";
 

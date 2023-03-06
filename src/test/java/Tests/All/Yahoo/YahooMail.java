@@ -1,30 +1,21 @@
-package UkrNet;
+package Tests.All.Yahoo;
 
 import Testdata.User;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import Tests.All.BaseTest;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.HomePage;
-import pages.LoginPage;
+import pages.yahoo.HomePage;
+import pages.yahoo.LoginPageYahoo;
 
-public class UkrNetTest {
+public class YahooMail extends BaseTest {
 
-    private WebDriver driver;
-
-    @BeforeClass
-    public void setUp(){
-        System.setProperty("selenium.chrome.driver", "chromedriver.exe");
-        driver = new ChromeDriver();
-    }
-
+    //ранее делали тут и ВебДрайвер и Бефор и АфтерМетод, потом перенесли в BaseTest
 
     //создаем методы. В методе создаем логинПейдж (стандартная)- куда передаем драйвер. И Логинпейдж(логин) передаем юзера.
     @Test
     public void sendEmailToMailinatorTest () throws InterruptedException {
         User user = new User("etorets", "Sobranie1990");
-        LoginPage loginPage = new LoginPage(driver);
+        LoginPageYahoo loginPage = new LoginPageYahoo(driver);
         loginPage.navigate();
         driver.manage().window().maximize();
         loginPage.login(user);
