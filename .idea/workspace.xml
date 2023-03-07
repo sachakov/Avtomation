@@ -4,16 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="WaitersPageObject">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/theInternet/InternetLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/All/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/All/TheInternetTest/TheInternetTest.java" afterDir="false" />
+    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="TheInternerLoginTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/DoubleArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SelenidTest/GoogleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/TheInternetTest/TheInternetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RegressSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/YahooSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/theInternetSuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/theInternet/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/yahoo/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/yahoo/LoginPageYahoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CSSlocatores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UkrNet/UkrNetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/All/Yahoo/YahooMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainAuto12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BingSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainAuto13TestNG.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGNovaPoshta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/All/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/All/TheInternetTest/TheInternetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/All/Yahoo/YahooMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/Yahoo/YahooMail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="MailBox" />
+        <entry key="$PROJECT_DIR$" value="TheInternetLogin" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,6 +58,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "File.Encoding"
   }
 }]]></component>
@@ -66,19 +74,55 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.YahooMail (1)">
-    <configuration name="MainAuto12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainAuto12" />
+  <component name="RunManager" selected="TestNG.GoogleTest.userShouldSearch">
+    <configuration name="C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/RegressSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Avtomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RegressSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestNGDemo.inputTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/theInternetSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Avtomation" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestNGDemo" />
-      <option name="METHOD_NAME" value="inputTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/theInternetSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenidTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenidTest" />
+      <option name="MAIN_CLASS_NAME" value="SelenidTest.GoogleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTest.userShouldSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SelenidTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SelenidTest" />
+      <option name="MAIN_CLASS_NAME" value="SelenidTest.GoogleTest" />
+      <option name="METHOD_NAME" value="userShouldSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,47 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YahooMail (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Avtomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.All.Yahoo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.All.Yahoo" />
-      <option name="MAIN_CLASS_NAME" value="Tests.All.Yahoo.YahooMail" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="YahooMail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Avtomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Yahoo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UkrNet" />
-      <option name="MAIN_CLASS_NAME" value="Yahoo.YahooMail" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.YahooMail (1)" />
+        <item itemvalue="TestNG.GoogleTest.userShouldSearch" />
+        <item itemvalue="TestNG.GoogleTest" />
+        <item itemvalue="TestNG.C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/RegressSuite.xml" />
+        <item itemvalue="TestNG.C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/theInternetSuite.xml" />
         <item itemvalue="TestNG.TheInternetTest" />
-        <item itemvalue="Application.MainAuto12" />
-        <item itemvalue="TestNG.YahooMail" />
-        <item itemvalue="TestNG.TestNGDemo.inputTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677616172316</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TheInternerLoginTest">
+      <created>1678145288086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678145288086</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +212,7 @@
     <MESSAGE value="JustToCommit" />
     <MESSAGE value="Locators1" />
     <MESSAGE value="Aserts1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aserts1" />
+    <MESSAGE value="TheInternerLoginTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="TheInternerLoginTest" />
   </component>
 </project>

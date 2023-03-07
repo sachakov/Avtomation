@@ -7,7 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
-public class TestNGDemo {
+public class TestNGNovaPoshta {
     WebDriver driver;
     //выше объявили драйвер на уровне класса, чтобы в афтерметоде можно было закрывать браузер, после теста каждый раз
 

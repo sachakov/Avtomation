@@ -1,7 +1,7 @@
-package Tests.All.Yahoo;
+package TestsAllSelenium.Yahoo;
 
 import Testdata.User;
-import Tests.All.BaseTest;
+import TestsAllSelenium.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.yahoo.HomePage;

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Yahoo Suite">
+    <test name="Yahoo">
+        <classes>
+            <class name="TestsAllSelenium.Yahoo.YahooMail" />
+        </classes>
+    </test>
+</suite>
