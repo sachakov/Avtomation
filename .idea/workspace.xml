@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c182168-a746-4e35-b6f6-eb8fcd849714" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restassuredAPI/PetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/restassuredAPI/RestAssuredHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/testdata.petstore/barsik.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredTest/restAssuredMultiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/restAssuredTest/restAssuredSingleTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MkBSuQu46TRGzSPtWWJwPVYvwg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.restAssuredMultiTest.createPet">
+    <configuration name="restAssuredMultiTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIPostmat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredTest" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredTest.restAssuredMultiTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restAssuredMultiTest.createPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIPostmat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredTest" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredTest.restAssuredMultiTest" />
+      <option name="METHOD_NAME" value="createPet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restAssuredMultiTest.createPetDto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIPostmat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredTest" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredTest.restAssuredMultiTest" />
+      <option name="METHOD_NAME" value="createPetDto" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restAssuredSingleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIPostmat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredTest" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredTest.restAssuredSingleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="restAssuredSingleTest.createPet" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIPostmat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="restAssuredTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="restAssuredTest" />
+      <option name="MAIN_CLASS_NAME" value="restAssuredTest.restAssuredSingleTest" />
+      <option name="METHOD_NAME" value="createPet" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.restAssuredMultiTest.createPet" />
+        <item itemvalue="TestNG.restAssuredMultiTest" />
+        <item itemvalue="TestNG.restAssuredMultiTest.createPetDto" />
+        <item itemvalue="TestNG.restAssuredSingleTest" />
+        <item itemvalue="TestNG.restAssuredSingleTest.createPet" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c182168-a746-4e35-b6f6-eb8fcd849714" name="Changes" comment="" />
+      <created>1678301705382</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678301705382</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
