@@ -12,7 +12,7 @@ public class YahooMail extends BaseTest {
     //ранее делали тут и ВебДрайвер и Бефор и АфтерМетод, потом перенесли в BaseTest
 
     //создаем методы. В методе создаем логинПейдж (стандартная)- куда передаем драйвер. И Логинпейдж(логин) передаем юзера.
-    @Test
+    @Test(testName = "Send Email")
     public void sendEmailToMailinatorTest () throws InterruptedException {
         User user = new User("etorets", "Sobranie1990");
         LoginPageYahoo loginPage = new LoginPageYahoo(driver);

@@ -4,21 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="TheInternerLoginTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DoubleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SelenidTest/GoogleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/TheInternetTest/TheInternetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/RegressSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/YahooSuite.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/theInternetSuite.xml" afterDir="false" />
+    <list default="true" id="98f14d56-b7cb-4b41-839b-ce32d4afebad" name="Changes" comment="DataProviderTestSuits">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/yep/YepHomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/TheInternetTest/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainAuto12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BingSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainAuto13TestNG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGNovaPoshta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/All/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/All/TheInternetTest/TheInternetTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/All/Yahoo/YahooMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/Yahoo/YahooMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/theInternet/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/theInternet/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SelenidTest/GoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SelenidTest/YepComTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestNGNovaPoshta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNGNovaPoshta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/Yahoo/YahooMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestsAllSelenium/Yahoo/YahooMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/RegressSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/RegressSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/theInternetSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/theInternetSuiteListeners.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,16 +50,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <force-push-targets>
       <force-push-target remote-path="Avtomation" branch="main" />
@@ -74,10 +70,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleTest.userShouldSearch">
+  <component name="RunManager" selected="TestNG.C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/theInternetSuiteListeners.xml">
     <configuration name="C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/RegressSuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Avtomation" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/RegressSuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/theInternetSuiteListeners.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Avtomation" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/theInternetSuiteListeners.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -95,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="YepComTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Avtomation" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +110,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SelenidTest" />
-      <option name="MAIN_CLASS_NAME" value="SelenidTest.GoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="SelenidTest.YepComTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -112,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTest.userShouldSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="YepComTest.userShouldSearch" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Avtomation" />
       <extension name="coverage">
         <pattern>
@@ -121,7 +127,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SelenidTest" />
-      <option name="MAIN_CLASS_NAME" value="SelenidTest.GoogleTest" />
+      <option name="MAIN_CLASS_NAME" value="SelenidTest.YepComTest" />
       <option name="METHOD_NAME" value="userShouldSearch" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -130,30 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheInternetTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Avtomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.All.TheInternetTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests.All.TheInternetTest" />
-      <option name="MAIN_CLASS_NAME" value="Tests.All.TheInternetTest.TheInternetTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleTest.userShouldSearch" />
-        <item itemvalue="TestNG.GoogleTest" />
+        <item itemvalue="TestNG.C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/theInternetSuiteListeners.xml" />
+        <item itemvalue="TestNG.YepComTest.userShouldSearch" />
+        <item itemvalue="TestNG.YepComTest" />
         <item itemvalue="TestNG.C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/RegressSuite.xml" />
         <item itemvalue="TestNG.C:/Users/alexandr.kovalinski/IdeaProjects/Avtomation/src/test/resources/theInternetSuite.xml" />
-        <item itemvalue="TestNG.TheInternetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678145288086</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DataProviderTestSuits">
+      <created>1678230522866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678230522866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +209,7 @@
     <MESSAGE value="Locators1" />
     <MESSAGE value="Aserts1" />
     <MESSAGE value="TheInternerLoginTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="TheInternerLoginTest" />
+    <MESSAGE value="DataProviderTestSuits" />
+    <option name="LAST_COMMIT_MESSAGE" value="DataProviderTestSuits" />
   </component>
 </project>

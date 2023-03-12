@@ -11,7 +11,7 @@ public class TestNGNovaPoshta {
     WebDriver driver;
     //выше объявили драйвер на уровне класса, чтобы в афтерметоде можно было закрывать браузер, после теста каждый раз
 
-@Test
+@Test(testName = "Nova Poshta Test")
     public void inputTest() throws InterruptedException {
     System.setProperty ("selenium.chrome.driver", "chromedriver.exe");
         WebDriver driver = new ChromeDriver();

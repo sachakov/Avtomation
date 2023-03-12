@@ -8,7 +8,7 @@
     </groups>
 
     <suite-files>
-        <suite-file path="theInternetSuite.xml"/>
+        <suite-file path="theInternetSuiteListeners.xml"/>
         <suite-file path="YahooSuite.xml"/>
     </suite-files>
 </suite>

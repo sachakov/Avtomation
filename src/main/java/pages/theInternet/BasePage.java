@@ -1,5 +1,6 @@
 package pages.theInternet;
 
+import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
@@ -17,9 +18,12 @@ public abstract class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
         webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver, this);//это чтобы можно было делать @Find
     }
-
+//когда проходили Селенид добавили этот конструктор без Вебдрайвера, чтобы пользоваться БейсПейдж без вебдрайвера
+    public BasePage() {
+    PageFactory.initElements(WebDriverRunner.getWebDriver(), this);//это чтобы можно было делать @Find
+    }
 
     //делаем метод для ожидания загрузки страницы
     public void waitUntilLoaded(){
