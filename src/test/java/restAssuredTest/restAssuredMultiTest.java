@@ -6,6 +6,7 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.path.json.JsonPath;
 import io.restassured.specification.RequestSpecification;
 import lombok.SneakyThrows;
+import org.assertj.core.api.Assertions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -64,8 +65,14 @@ public class restAssuredMultiTest {
             PetDto responsePet = new ObjectMapper().readValue(jsonResponsePet.prettify(), PetDto.class);
 
             //Assert.assertEquals(requestPet, responsePet);
-            Assert.assertEquals(requestPet.getName(), responsePet.getName());
-            Assert.assertEquals(requestPet.getStatus(), responsePet.getStatus());
+          //Assert.assertEquals(requestPet.getName(), responsePet.getName());
+            //Assert.assertEquals(requestPet.getStatus(), responsePet.getStatus());
+
+            //Реализуем ASSERT EQUALS через ASSERT-J вместо TestNG
+            Assertions.assertThat(responsePet).
+                    usingRecursiveComparison()//для иннорирования, говорим, что сравниваем не полностью 2 объекта, а частично
+                    .ignoringFields("id")
+                    .isEqualTo(requestPet);
         }
 
 

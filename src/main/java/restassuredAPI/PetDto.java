@@ -13,10 +13,11 @@ import lombok.extern.jackson.Jacksonized;
 @Jacksonized
 @JsonIgnoreProperties(ignoreUnknown = true)
 
-public class PetDto {
+public class PetDto { //Data Transfer Object - DTO
 //в реквесте много полей, если для них делать геттеры и сеттеры, то получится много кода, поэтому подключили Ломбок
     //Ломбок дает возможность одной аннотацией поставить Геттер
 
     private String name;
     private String status;
+    private long id;
 }
